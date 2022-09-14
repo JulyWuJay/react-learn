@@ -1,7 +1,8 @@
 import React from 'react'
+import './index.css'
 const Header: React.FC = () => {
   return (
-    <div>
+    <div className='header'>
       header
     </div>
   )
