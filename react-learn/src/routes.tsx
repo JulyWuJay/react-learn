@@ -10,6 +10,7 @@ export default function Router() {
       element: <Issues/>,
       children: [
         {
+          // 这个是包含listpanel
           path: 'content',
           element: <Content/>,
           children: [
@@ -20,6 +21,7 @@ export default function Router() {
           ]
         },
         {
+          // 这个不包含listpanel
           path: 'list/:id',
           element: <DetailPanel/>
         }
