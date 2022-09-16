@@ -18,6 +18,10 @@ export default function Router() {
               element: <DetailPanel/>
             }
           ]
+        },
+        {
+          path: 'list/:id',
+          element: <DetailPanel/>
         }
       ]
     }
