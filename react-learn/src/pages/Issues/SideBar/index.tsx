@@ -1,7 +1,8 @@
 import React from 'react'
+import './index.css'
 const SideBar: React.FC = () => {
   return (
-    <div>
+    <div className='side-bar'>
       sidebar
     </div>
   )
